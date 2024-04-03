@@ -1,0 +1,93 @@
+CRITICAL - 2022-03-20 01:52:54 --> syntax error, unexpected end of file
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Router/Router.php(160): CodeIgniter\Router\Router->autoRoute('/useraccess')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(702): CodeIgniter\Router\Router->handle('/useraccess')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-20 01:57:40 --> Undefined property: App\Controllers\Useraccess::$model
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Useraccess.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 18, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->index()
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-20 02:11:13 --> Call to undefined method App\Controllers\Useraccess::_getSubMenu()
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->list_useraccess('c2bcda87edc80c4...')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-20 02:11:16 --> Call to undefined method App\Controllers\Useraccess::_getSubMenu()
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->list_useraccess('a359b5f615fa450...')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-20 02:11:30 --> Call to undefined method App\Controllers\Useraccess::_getSubMenu()
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->list_useraccess('be87dd88bfce2a5...')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-20 02:11:42 --> Call to undefined method App\Controllers\Useraccess::_getSubMenu()
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->list_useraccess('bb00f8b46e18f01...')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-20 02:12:26 --> Undefined variable: menu
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Useraccess.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 48, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->list_useraccess('d4df30c2f5bdce1...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-20 02:12:36 --> Undefined variable: menu
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Useraccess.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 48, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->list_useraccess('02fc09e6522a8a2...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-20 02:13:00 --> Undefined variable: menu
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Useraccess.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 48, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->list_useraccess('765021a6e681e61...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-20 02:13:09 --> Undefined variable: menu
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Useraccess.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 48, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->list_useraccess('820470bb29815be...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-20 02:49:07 --> syntax error, unexpected '}', expecting ';' or ','
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Common.php(1092): CodeIgniter\View\View->render('section/index_u...', Array, true)
+#2 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Useraccess.php(20): view('section/index_u...', Array)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->index()
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#5 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-20 02:55:37 --> syntax error, unexpected '$thead' (T_VARIABLE)
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Common.php(1092): CodeIgniter\View\View->render('section/index_u...', Array, true)
+#2 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Useraccess.php(20): view('section/index_u...', Array)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->index()
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#5 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-20 02:55:38 --> syntax error, unexpected '$thead' (T_VARIABLE)
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Common.php(1092): CodeIgniter\View\View->render('section/index_u...', Array, true)
+#2 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Useraccess.php(20): view('section/index_u...', Array)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->index()
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#5 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}

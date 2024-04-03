@@ -1,0 +1,666 @@
+CRITICAL - 2022-04-20 02:52:37 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 02:52:40 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 02:53:08 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 02:53:15 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 02:53:15 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 02:53:15 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 02:53:16 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 02:53:16 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 02:53:16 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 02:54:43 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 02:54:45 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 02:54:47 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 02:55:09 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 02:56:10 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 03:01:40 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 04:43:30 --> Argument 1 passed to CodeIgniter\BaseModel::findColumn() must be of the type string, array given, called in /opt/lampp/htdocs/konveksi/app/Controllers/Pemotongan.php on line 132
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Pemotongan.php(132): CodeIgniter\BaseModel->findColumn(Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Pemotongan->save_hasil_potong()
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemotongan))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 04:43:43 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 04:43:59 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 04:44:11 --> Argument 1 passed to CodeIgniter\BaseModel::findColumn() must be of the type string, array given, called in /opt/lampp/htdocs/konveksi/app/Controllers/Pemotongan.php on line 132
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Pemotongan.php(132): CodeIgniter\BaseModel->findColumn(Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Pemotongan->save_hasil_potong()
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemotongan))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 04:46:43 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 04:53:42 --> Call to undefined method App\Models\PemotonganModel::affectedRows
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Pemotongan.php(150): CodeIgniter\Model->__call('affectedRows', Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Pemotongan->save_hasil_potong()
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemotongan))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 04:53:44 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 04:53:44 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 04:53:46 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 04:53:51 --> Call to undefined method App\Models\PemotonganModel::affectedRows
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Pemotongan.php(150): CodeIgniter\Model->__call('affectedRows', Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Pemotongan->save_hasil_potong()
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemotongan))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 04:54:36 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 04:57:36 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/pemotonga...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 09:08:27 --> Undefined variable: jenis_barang
+#0 /opt/lampp/htdocs/konveksi/app/Views/section/add_edit_rencanakerja.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 38, Array)
+#1 /opt/lampp/htdocs/konveksi/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/konveksi/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/konveksi/system/Common.php(1092): CodeIgniter\View\View->render('section/add_edi...', Array, true)
+#4 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(121): view('section/add_edi...', Array)
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->add_rencanakerja()
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#7 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 09:17:28 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', '/opt/lampp/htdo...', 256, Array)
+#1 /opt/lampp/htdocs/konveksi/system/Validation/Validation.php(256): preg_match('/(.*?)\\[(.*)\\]/', Array, NULL)
+#2 /opt/lampp/htdocs/konveksi/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('0', '0', NULL, Array, Array)
+#3 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(217): CodeIgniter\Validation\Validation->run()
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->save_rencanakerja()
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-20 09:17:29 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/rencanake...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 09:21:04 --> Undefined offset: 0
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(203): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/opt/lampp/htdo...', 203, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->save_rencanakerja()
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 09:21:10 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/rencanake...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 09:21:26 --> Undefined offset: 0
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(201): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/opt/lampp/htdo...', 201, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->save_rencanakerja()
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 09:22:40 --> Undefined variable: variable
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(200): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 200, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->save_rencanakerja()
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 09:22:51 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/rencanake...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 09:26:07 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/rencanake...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 09:29:40 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/rencanake...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 09:29:49 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/rencanake...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 09:33:10 --> Call to undefined method App\Models\RencanakerjaModel::affectedRows
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(208): CodeIgniter\Model->__call('affectedRows', Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->save_rencanakerja()
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 09:33:12 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/rencanake...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 09:33:14 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/rencanake...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 09:33:32 --> Call to undefined method App\Models\RencanakerjaModel::affectedRows
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(208): CodeIgniter\Model->__call('affectedRows', Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->save_rencanakerja()
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 09:37:29 --> Array to string conversion
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 50, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->list_rencanakerja('19a1c0ce877462a...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 10:16:02 --> Call to undefined method App\Controllers\Rencanakerja::_findJenisBarang()
+#0 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->list_rencanakerja('718d65f80e4aeff...')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 10:18:48 --> Undefined variable: jenis_barang
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Pemotongan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 35, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Pemotongan->list_pemotongan('cd1baf519c1259d...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemotongan))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 10:18:55 --> Undefined variable: jenis_barang
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Pemotongan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 35, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Pemotongan->list_pemotongan('aa9dac5fcea9dd3...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemotongan))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 10:19:23 --> Call to undefined method App\Controllers\BaseController::findJenisBarang()
+#0 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Pemotongan->list_pemotongan('dad71304ad3f937...')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemotongan))
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 10:46:56 --> Call to undefined method App\Controllers\Bordir::_list_hasil_potong()
+#0 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('86deb1294e3f3b8...')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 10:46:58 --> Call to undefined method App\Controllers\Bordir::_list_hasil_potong()
+#0 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('57f6fd799790fb5...')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 10:47:05 --> Call to undefined method App\Controllers\Bordir::_list_hasil_potong()
+#0 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('a18b59a072abc39...')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-20 11:17:34 --> Array to string conversion
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 41, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('b7cb29c238dcf20...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 11:17:58 --> Array to string conversion
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 41, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('5bf7e15ccc75473...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 11:18:04 --> Array to string conversion
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 41, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('91d6160343fc60c...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 11:18:58 --> Array to string conversion
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 41, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('0b1f7311ccec400...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 11:19:19 --> Call to undefined method App\Models\BordirModel::findHasilPotong
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(69): CodeIgniter\Model->__call('findHasilPotong', Array)
+#1 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(36): App\Controllers\Bordir->_list_hasil_potong('30', '1,2,3')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('1702fa47f7d9765...')
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 11:22:32 --> Undefined property: stdClass::$nama_jenis_bahan
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('82e6092ca27d361...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-20 11:26:33 --> Column 'id_pemotongan' in order clause is ambiguous
+CRITICAL - 2022-04-20 11:26:33 --> Column 'id_pemotongan' in order clause is ambiguous
+#0 /opt/lampp/htdocs/konveksi/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/konveksi/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/konveksi/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/konveksi/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(24): App\Models\BordirModel->getTugasBordir()
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('795a478606054b1...')
+#7 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#8 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-20 11:26:44 --> Column 'id_pemotongan' in order clause is ambiguous
+CRITICAL - 2022-04-20 11:26:44 --> Column 'id_pemotongan' in order clause is ambiguous
+#0 /opt/lampp/htdocs/konveksi/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/konveksi/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/konveksi/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/konveksi/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(24): App\Models\BordirModel->getTugasBordir()
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('41933a85aaf16bc...')
+#7 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#8 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-20 11:26:55 --> Column 'id_pemotongan' in order clause is ambiguous
+CRITICAL - 2022-04-20 11:26:55 --> Column 'id_pemotongan' in order clause is ambiguous
+#0 /opt/lampp/htdocs/konveksi/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/konveksi/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/konveksi/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/konveksi/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(24): App\Models\BordirModel->getTugasBordir()
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('82cca97794c5642...')
+#7 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#8 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-20 11:27:39 --> Column 'id_pemotongan' in where clause is ambiguous
+CRITICAL - 2022-04-20 11:27:39 --> Column 'id_pemotongan' in where clause is ambiguous
+#0 /opt/lampp/htdocs/konveksi/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/konveksi/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/konveksi/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/konveksi/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(71): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(24): App\Models\BordirModel->getTugasBordir()
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('9cfd722e6a4f7b5...')
+#7 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#8 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-20 11:29:59 --> Column 'id_pemotongan' in where clause is ambiguous
+CRITICAL - 2022-04-20 11:29:59 --> Column 'id_pemotongan' in where clause is ambiguous
+#0 /opt/lampp/htdocs/konveksi/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/konveksi/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/konveksi/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/konveksi/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(70): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(24): App\Models\BordirModel->getTugasBordir()
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('64e93cfa92fc519...')
+#7 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#8 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-20 11:30:37 --> Array to string conversion
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Pemotongan.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 41, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Pemotongan->list_pemotongan('b0437ea43d151e6...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemotongan))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 11:30:44 --> Array to string conversion
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Pemotongan.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 41, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Pemotongan->list_pemotongan('450ca8baeb690d0...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemotongan))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 11:35:16 --> Undefined property: stdClass::$nama_jenis_bahan
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('8098326236a61bb...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 11:36:46 --> Undefined property: stdClass::$nama_jenis_bahan
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('42b2a1ceb568d4a...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 11:37:28 --> Undefined property: stdClass::$nama_jenis_bahan
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('1d6090927e4347e...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-20 11:43:23 --> Undefined offset: 13
+#0 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/opt/lampp/htdo...', 42, Array)
+#1 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(83): App\Models\BordirModel->_queryTugasBordir(Object(CodeIgniter\Database\MySQLi\Builder))
+#2 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(24): App\Models\BordirModel->getTugasBordir()
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('2c2be1f17b9bba3...')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-20 11:43:58 --> Undefined offset: 13
+#0 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/opt/lampp/htdo...', 42, Array)
+#1 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(83): App\Models\BordirModel->_queryTugasBordir(Object(CodeIgniter\Database\MySQLi\Builder))
+#2 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(24): App\Models\BordirModel->getTugasBordir()
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('cf0165f1db0fadb...')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-20 11:44:03 --> Undefined offset: 13
+#0 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/opt/lampp/htdo...', 42, Array)
+#1 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(83): App\Models\BordirModel->_queryTugasBordir(Object(CodeIgniter\Database\MySQLi\Builder))
+#2 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(24): App\Models\BordirModel->getTugasBordir()
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('4e33685573f834c...')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-20 11:50:47 --> syntax error, unexpected '}', expecting end of file
+#0 /opt/lampp/htdocs/konveksi/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/konveksi/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Ukur...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Ukur...')
+#3 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(30): spl_autoload_call('App\\Models\\Ukur...')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('5e1912b28c4db3a...')
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-20 12:02:05 --> Undefined variable: value
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 70, Array)
+#1 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(39): App\Controllers\Bordir->_list_tugas_potong('33', '123')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('eb1d4b16468da59...')
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 12:02:27 --> Undefined variable: value
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 70, Array)
+#1 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(39): App\Controllers\Bordir->_list_tugas_potong('33', '123')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('9a84fa44adc25d8...')
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 12:02:30 --> Undefined variable: value
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 70, Array)
+#1 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(39): App\Controllers\Bordir->_list_tugas_potong('33', '123')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('b62bc080cd5cd3c...')
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 13:14:56 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/tugasbord...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 13:15:07 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/tugasbord...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-20 14:10:31 --> Undefined property: stdClass::$pemotongan_id
+#0 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 123, Array)
+#1 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(45): App\Models\BordirModel->_whereTugasBordir()
+#2 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(85): App\Models\BordirModel->_queryTugasBordir(Object(CodeIgniter\Database\MySQLi\Builder))
+#3 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(24): App\Models\BordirModel->getTugasBordir()
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('c2635ed5b05d59a...')
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-20 14:10:41 --> Undefined property: stdClass::$pemotongan_id
+#0 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 123, Array)
+#1 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(45): App\Models\BordirModel->_whereTugasBordir()
+#2 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(85): App\Models\BordirModel->_queryTugasBordir(Object(CodeIgniter\Database\MySQLi\Builder))
+#3 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(24): App\Models\BordirModel->getTugasBordir()
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('2b645ff0763a6c2...')
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-20 14:11:01 --> Undefined property: stdClass::$id_bordir
+#0 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 124, Array)
+#1 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(45): App\Models\BordirModel->_whereTugasBordir()
+#2 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(85): App\Models\BordirModel->_queryTugasBordir(Object(CodeIgniter\Database\MySQLi\Builder))
+#3 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(24): App\Models\BordirModel->getTugasBordir()
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('a97d172ee50a9d1...')
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-20 14:11:07 --> Undefined property: stdClass::$id_bordir
+#0 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 124, Array)
+#1 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(45): App\Models\BordirModel->_whereTugasBordir()
+#2 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(85): App\Models\BordirModel->_queryTugasBordir(Object(CodeIgniter\Database\MySQLi\Builder))
+#3 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(24): App\Models\BordirModel->getTugasBordir()
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('a3553450eb9389a...')
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-20 14:11:12 --> Undefined property: stdClass::$id_bordir
+#0 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 124, Array)
+#1 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(45): App\Models\BordirModel->_whereTugasBordir()
+#2 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(85): App\Models\BordirModel->_queryTugasBordir(Object(CodeIgniter\Database\MySQLi\Builder))
+#3 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(24): App\Models\BordirModel->getTugasBordir()
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('74938d094e7e219...')
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-20 14:12:06 --> Column 'id_pemotongan' in where clause is ambiguous
+CRITICAL - 2022-04-20 14:12:06 --> Column 'id_pemotongan' in where clause is ambiguous
+#0 /opt/lampp/htdocs/konveksi/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT `hp`.`id...')
+#1 /opt/lampp/htdocs/konveksi/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `hp`.`id...')
+#2 /opt/lampp/htdocs/konveksi/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `hp`.`id...')
+#3 /opt/lampp/htdocs/konveksi/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `hp`.`id...', Array, false)
+#4 /opt/lampp/htdocs/konveksi/app/Models/BordirModel.php(88): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/konveksi/app/Controllers/Bordir.php(24): App\Models\BordirModel->getTugasBordir()
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bordir->list_tugas_bordir('fd8571a1292098a...')
+#7 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bordir))
+#8 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}

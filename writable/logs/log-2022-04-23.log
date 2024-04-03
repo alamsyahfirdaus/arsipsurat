@@ -1,0 +1,55 @@
+CRITICAL - 2022-04-23 11:35:40 --> Class 'App\Models\JenisbahanModel' not found
+#0 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(779): App\Controllers\Jenisbahan->__construct()
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-23 11:36:28 --> Class 'App\Models\JenisbahanModel' not found
+#0 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(779): App\Controllers\Jenisbahan->__construct()
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-23 11:36:38 --> Invalid file: section/index_jenisbahan.php
+#0 /opt/lampp/htdocs/konveksi/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('section/index_j...')
+#1 /opt/lampp/htdocs/konveksi/system/Common.php(1092): CodeIgniter\View\View->render('section/index_j...', Array, true)
+#2 /opt/lampp/htdocs/konveksi/app/Controllers/Jenisbahan.php(19): view('section/index_j...', Array)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Jenisbahan->index()
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenisbahan))
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-23 11:36:39 --> Invalid file: section/index_jenisbahan.php
+#0 /opt/lampp/htdocs/konveksi/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('section/index_j...')
+#1 /opt/lampp/htdocs/konveksi/system/Common.php(1092): CodeIgniter\View\View->render('section/index_j...', Array, true)
+#2 /opt/lampp/htdocs/konveksi/app/Controllers/Jenisbahan.php(19): view('section/index_j...', Array)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Jenisbahan->index()
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenisbahan))
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-23 11:37:16 --> Invalid file: section/index_jenisbahan.php
+#0 /opt/lampp/htdocs/konveksi/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('section/index_j...')
+#1 /opt/lampp/htdocs/konveksi/system/Common.php(1092): CodeIgniter\View\View->render('section/index_j...', Array, true)
+#2 /opt/lampp/htdocs/konveksi/app/Controllers/Jenisbahan.php(19): view('section/index_j...', Array)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Jenisbahan->index()
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenisbahan))
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-23 11:37:17 --> Invalid file: section/index_jenisbahan.php
+#0 /opt/lampp/htdocs/konveksi/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('section/index_j...')
+#1 /opt/lampp/htdocs/konveksi/system/Common.php(1092): CodeIgniter\View\View->render('section/index_j...', Array, true)
+#2 /opt/lampp/htdocs/konveksi/app/Controllers/Jenisbahan.php(19): view('section/index_j...', Array)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Jenisbahan->index()
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenisbahan))
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-23 12:43:28 --> Undefined variable: saving
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Jenisbahan.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 36, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Jenisbahan->list_jenisbahan('6b63d7fff594102...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenisbahan))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}

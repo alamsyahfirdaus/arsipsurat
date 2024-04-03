@@ -1,0 +1,64 @@
+CRITICAL - 2022-03-22 09:09:10 --> syntax error, unexpected '}'
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(162): spl_autoload_call('App\\Filters\\Aut...')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/accessmenu', 'before')
+#5 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-22 09:17:25 --> 
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/View/View.php(230): CodeIgniter\View\View->render('layout/top-nav', Array, true)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/Common.php(1092): CodeIgniter\View\View->render('section/index_u...', Array, true)
+#4 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Useraccess.php(20): view('section/index_u...', Array)
+#5 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->index()
+#6 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#7 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-22 09:17:35 --> 
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/View/View.php(230): CodeIgniter\View\View->render('layout/top-nav', Array, true)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/Common.php(1092): CodeIgniter\View\View->render('section/index_u...', Array, true)
+#4 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Useraccess.php(20): view('section/index_u...', Array)
+#5 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->index()
+#6 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#7 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-22 09:23:33 --> Call to undefined method App\Models\MenuModel::findAccessMenu
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Views/layout/top-nav.php(16): CodeIgniter\Model->__call('findAccessMenu', Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/View/View.php(230): CodeIgniter\View\View->render('layout/top-nav', Array, true)
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/Common.php(1092): CodeIgniter\View\View->render('section/index_u...', Array, true)
+#5 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Useraccess.php(20): view('section/index_u...', Array)
+#6 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->index()
+#7 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#8 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-22 09:28:22 --> syntax error, unexpected ')'
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Menu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Menu...')
+#3 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(11): spl_autoload_call('App\\Models\\Menu...')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(779): App\Controllers\Accessmenu->__construct()
+#5 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#6 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-22 09:36:51 --> syntax error, unexpected ';'
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Menu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Menu...')
+#3 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Useraccess.php(65): spl_autoload_call('App\\Models\\Menu...')
+#4 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Useraccess.php(46): App\Controllers\Useraccess->_getLoginas('1')
+#5 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Useraccess->list_useraccess('51d5c831ea2509a...')
+#6 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Useraccess))
+#7 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

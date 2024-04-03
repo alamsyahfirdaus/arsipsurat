@@ -1,0 +1,394 @@
+CRITICAL - 2022-06-14 03:25:32 --> Call to undefined function form_hidden()
+#0 /opt/lampp/htdocs/mitrasinerji/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/mitrasinerji/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/mitrasinerji/system/Common.php(1092): CodeIgniter\View\View->render('section/add_tra...', Array, true)
+#3 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(36): view('section/add_tra...', Array)
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->add_transaksi()
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-14 04:23:44 --> Unsupported operand types: string + int
+#0 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->find_barang('1e20591face40d3...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 04:23:44 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/goods/transact...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 04:23:47 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/goods/transact...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 04:23:48 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/goods/transact...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 04:23:49 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/goods/transact...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 04:23:51 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/goods/transact...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 04:23:51 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/goods/transact...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 07:32:18 --> Unsupported operand types: string + int
+#0 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->find_barang('7b170ee6bd41024...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 07:32:18 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/goods/transact...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 07:32:20 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/goods/transact...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 07:32:20 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/goods/transact...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 07:32:21 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/goods/transact...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 07:32:31 --> Unsupported operand types: string + int
+#0 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->find_barang('ac1985dd4938ab6...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 07:32:41 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/goods/transact...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 07:32:49 --> Unsupported operand types: string + int
+#0 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->find_barang('3230eb2aec1194a...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-14 08:26:52 --> Array to string conversion
+#0 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 139)
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->save_transaksi()
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 08:27:12 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/transacti...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 08:27:24 --> Array to string conversion
+#0 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 139)
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->save_transaksi()
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 08:29:06 --> Array to string conversion
+#0 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 137)
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->save_transaksi()
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 08:50:15 --> foreach() argument must be of type array|object, string given
+#0 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/opt/lampp/htdo...', 131)
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->save_transaksi()
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 08:50:29 --> foreach() argument must be of type array|object, string given
+#0 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/opt/lampp/htdo...', 131)
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->save_transaksi()
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 08:50:56 --> foreach() argument must be of type array|object, string given
+#0 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/opt/lampp/htdo...', 131)
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->save_transaksi()
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-14 09:35:43 --> Unknown column 'kode' in 'field list'
+CRITICAL - 2022-06-14 09:35:43 --> Unknown column 'kode' in 'field list'
+#0 /opt/lampp/htdocs/mitrasinerji/system/Database/MySQLi/Connection.php(280): mysqli->query('INSERT INTO `de...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(191): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->save_transaksi()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 09:36:04 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/transacti...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 09:36:16 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/transacti...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-14 09:36:34 --> Unknown column 'kode' in 'field list'
+CRITICAL - 2022-06-14 09:36:34 --> Unknown column 'kode' in 'field list'
+#0 /opt/lampp/htdocs/mitrasinerji/system/Database/MySQLi/Connection.php(280): mysqli->query('INSERT INTO `de...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(191): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->save_transaksi()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 09:37:40 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/transacti...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-14 09:37:59 --> Column 'id_detail_penjualan' cannot be null
+CRITICAL - 2022-06-14 09:37:59 --> Column 'id_detail_penjualan' cannot be null
+#0 /opt/lampp/htdocs/mitrasinerji/system/Database/MySQLi/Connection.php(280): mysqli->query('INSERT INTO `de...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(192): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->save_transaksi()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 09:38:44 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/transacti...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 09:38:51 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/transacti...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-14 09:39:23 --> Column 'penjualan_id' cannot be null
+CRITICAL - 2022-06-14 09:39:23 --> Column 'penjualan_id' cannot be null
+#0 /opt/lampp/htdocs/mitrasinerji/system/Database/MySQLi/Connection.php(280): mysqli->query('INSERT INTO `de...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(192): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->save_transaksi()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 09:41:09 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/transacti...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-14 09:41:23 --> Column 'barang_id' cannot be null
+CRITICAL - 2022-06-14 09:41:23 --> Column 'barang_id' cannot be null
+#0 /opt/lampp/htdocs/mitrasinerji/system/Database/MySQLi/Connection.php(280): mysqli->query('INSERT INTO `de...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(193): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->save_transaksi()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-14 09:43:44 --> Column 'harga_banderol' cannot be null
+CRITICAL - 2022-06-14 09:43:44 --> Column 'harga_banderol' cannot be null
+#0 /opt/lampp/htdocs/mitrasinerji/system/Database/MySQLi/Connection.php(280): mysqli->query('INSERT INTO `de...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(193): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->save_transaksi()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-14 09:44:00 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/transacti...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-14 09:44:14 --> Column 'harga_banderol' cannot be null
+CRITICAL - 2022-06-14 09:44:14 --> Column 'harga_banderol' cannot be null
+#0 /opt/lampp/htdocs/mitrasinerji/system/Database/MySQLi/Connection.php(280): mysqli->query('INSERT INTO `de...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(193): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->save_transaksi()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-14 23:20:52 --> Unknown column 'c.nama_pelanggan' in 'field list'
+CRITICAL - 2022-06-14 23:20:52 --> Unknown column 'c.nama_pelanggan' in 'field list'
+#0 /opt/lampp/htdocs/mitrasinerji/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT `t`.`id_...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t`.`id_...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t`.`id_...')
+#3 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `t`.`id_...', Array, false)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Models/TransaksiModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(29): App\Models\TransaksiModel->getDataTable()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->list_transaksi('be0a4d9cf4c83d3...')
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-14 23:20:58 --> Unknown column 'c.nama_pelanggan' in 'field list'
+CRITICAL - 2022-06-14 23:20:58 --> Unknown column 'c.nama_pelanggan' in 'field list'
+#0 /opt/lampp/htdocs/mitrasinerji/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT `t`.`id_...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t`.`id_...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t`.`id_...')
+#3 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `t`.`id_...', Array, false)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Models/TransaksiModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(29): App\Models\TransaksiModel->getDataTable()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->list_transaksi('2704a0e149e1e22...')
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-06-14 23:24:25 --> Unknown column 'jumlah_barang' in 'field list'
+CRITICAL - 2022-06-14 23:24:25 --> Unknown column 'jumlah_barang' in 'field list'
+#0 /opt/lampp/htdocs/mitrasinerji/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT `t`.`id_...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t`.`id_...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t`.`id_...')
+#3 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `t`.`id_...', Array, false)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Models/TransaksiModel.php(77): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(29): App\Models\TransaksiModel->getDataTable()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->list_transaksi('f575f668f37d3ff...')
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-14 23:40:09 --> CodeIgniter\Database\BaseBuilder::limit(): Argument #2 ($offset) must be of type ?int, string given, called in /opt/lampp/htdocs/mitrasinerji/app/Models/TransaksiModel.php on line 73
+#0 /opt/lampp/htdocs/mitrasinerji/app/Models/TransaksiModel.php(73): CodeIgniter\Database\BaseBuilder->limit(0, 'NaN')
+#1 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(29): App\Models\TransaksiModel->getDataTable()
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->list_transaksi('7f78dcbb85cd42a...')
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 23:40:11 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/list/transacti...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 23:44:10 --> Undefined variable $query
+#0 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 42)
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->list_transaksi('c5f9a79acf33321...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 23:44:36 --> Undefined variable $query
+#0 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 42)
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->list_transaksi('86bbe27ac9d444e...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-14 23:46:28 --> Unknown column 't.id_pelanggan' in 'field list'
+CRITICAL - 2022-06-14 23:46:28 --> Unknown column 't.id_pelanggan' in 'field list'
+#0 /opt/lampp/htdocs/mitrasinerji/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT `t`.`id_...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `t`.`id_...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `t`.`id_...')
+#3 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `t`.`id_...', Array, false)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Models/TransaksiModel.php(74): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(29): App\Models\TransaksiModel->getDataTable()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->list_transaksi('2e7a72f1b12c532...')
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}

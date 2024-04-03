@@ -1,0 +1,98 @@
+CRITICAL - 2024-03-10 03:29:12 --> syntax error, unexpected token "endfor"
+#0 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_h...', Array, true)
+#2 /opt/lampp/htdocs/arsipsurat/app/Controllers/Home.php(26): view('section/index_h...', Array)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-10 03:39:31 --> syntax error, unexpected token "endfor"
+#0 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_h...', Array, true)
+#2 /opt/lampp/htdocs/arsipsurat/app/Controllers/Home.php(28): view('section/index_h...', Array)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-10 03:39:41 --> syntax error, unexpected token ";", expecting "("
+#0 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_h...', Array, true)
+#2 /opt/lampp/htdocs/arsipsurat/app/Controllers/Home.php(28): view('section/index_h...', Array)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-10 03:39:42 --> syntax error, unexpected token ";", expecting "("
+#0 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_h...', Array, true)
+#2 /opt/lampp/htdocs/arsipsurat/app/Controllers/Home.php(28): view('section/index_h...', Array)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-10 03:39:50 --> syntax error, unexpected token ";", expecting "("
+#0 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_h...', Array, true)
+#2 /opt/lampp/htdocs/arsipsurat/app/Controllers/Home.php(28): view('section/index_h...', Array)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-10 03:40:03 --> Undefined variable $nama_jenis_surat
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_home1.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 11)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_h...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Home.php(28): view('section/index_h...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-10 03:40:26 --> Undefined variable $nama_jenis_surat
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_home1.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 11)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_h...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Home.php(28): view('section/index_h...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-10 03:43:02 --> Undefined property: CodeIgniter\View\View::$db
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_home1.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/opt/lampp/htdo...', 15)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_h...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Home.php(28): view('section/index_h...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-10 03:43:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_h...', Array, true)
+#3 /opt/lampp/htdocs/arsipsurat/app/Controllers/Home.php(28): view('section/index_h...', Array)
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-10 03:43:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_h...', Array, true)
+#3 /opt/lampp/htdocs/arsipsurat/app/Controllers/Home.php(28): view('section/index_h...', Array)
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Home->index()
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}

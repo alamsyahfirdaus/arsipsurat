@@ -1,0 +1,72 @@
+CRITICAL - 2021-12-16 07:40:15 --> Invalid file: index_login.php
+#0 /opt/lampp/htdocs/ci4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_login.php')
+#1 /opt/lampp/htdocs/ci4/system/Common.php(1092): CodeIgniter\View\View->render('index_login.php', Array, true)
+#2 /opt/lampp/htdocs/ci4/app/Controllers/Auth.php(9): view('index_login.php')
+#3 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#4 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ci4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 07:44:29 --> Invalid file: index_login.php
+#0 /opt/lampp/htdocs/ci4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_login.php')
+#1 /opt/lampp/htdocs/ci4/system/Common.php(1092): CodeIgniter\View\View->render('index_login.php', Array, true)
+#2 /opt/lampp/htdocs/ci4/app/Controllers/Auth.php(9): view('index_login.php')
+#3 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#4 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ci4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 07:48:14 --> Invalid file: index_login.php
+#0 /opt/lampp/htdocs/ci4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_login.php')
+#1 /opt/lampp/htdocs/ci4/system/Common.php(1092): CodeIgniter\View\View->render('index_login.php', Array, true)
+#2 /opt/lampp/htdocs/ci4/app/Controllers/Auth.php(9): view('index_login.php')
+#3 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#4 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ci4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 07:58:18 --> Invalid file: index_login.php
+#0 /opt/lampp/htdocs/ci4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_login.php')
+#1 /opt/lampp/htdocs/ci4/system/Common.php(1092): CodeIgniter\View\View->render('index_login.php', Array, true)
+#2 /opt/lampp/htdocs/ci4/app/Controllers/Auth.php(9): view('index_login.php')
+#3 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#4 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ci4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 08:28:37 --> Invalid file: index_login.php
+#0 /opt/lampp/htdocs/ci4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_login.php')
+#1 /opt/lampp/htdocs/ci4/system/Common.php(1092): CodeIgniter\View\View->render('index_login.php', Array, true)
+#2 /opt/lampp/htdocs/ci4/app/Controllers/Auth.php(9): view('index_login.php')
+#3 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#4 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ci4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 08:28:45 --> Invalid file: auth/index_login.php
+#0 /opt/lampp/htdocs/ci4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/index_logi...')
+#1 /opt/lampp/htdocs/ci4/system/Common.php(1092): CodeIgniter\View\View->render('auth/index_logi...', Array, true)
+#2 /opt/lampp/htdocs/ci4/app/Controllers/Auth.php(9): view('auth/index_logi...')
+#3 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#4 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ci4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 08:28:46 --> Invalid file: auth/index_login.php
+#0 /opt/lampp/htdocs/ci4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/index_logi...')
+#1 /opt/lampp/htdocs/ci4/system/Common.php(1092): CodeIgniter\View\View->render('auth/index_logi...', Array, true)
+#2 /opt/lampp/htdocs/ci4/app/Controllers/Auth.php(9): view('auth/index_logi...')
+#3 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#4 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ci4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-16 08:28:47 --> Invalid file: auth/index_login.php
+#0 /opt/lampp/htdocs/ci4/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/index_logi...')
+#1 /opt/lampp/htdocs/ci4/system/Common.php(1092): CodeIgniter\View\View->render('auth/index_logi...', Array, true)
+#2 /opt/lampp/htdocs/ci4/app/Controllers/Auth.php(9): view('auth/index_logi...')
+#3 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(802): App\Controllers\Auth->index()
+#4 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 /opt/lampp/htdocs/ci4/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ci4/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,356 @@
+CRITICAL - 2022-02-23 07:27:34 --> Undefined property: App\Controllers\Accessmenu::$input
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->list_accessmenu('5c311aee28e6a9c...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-23 07:27:47 --> Undefined property: App\Controllers\Accessmenu::$input
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->list_accessmenu('6cf389e44ce7399...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-23 07:27:55 --> Undefined property: App\Controllers\Accessmenu::$input
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 34, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->list_accessmenu('f81178b80d79087...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-23 07:43:23 --> Invalid argument supplied for foreach()
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/opt/lampp/htdo...', 68, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(46): App\Controllers\Accessmenu->_getSubMenu('2')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->list_accessmenu('ed40e34763b0044...')
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 07:44:11 --> Array to string conversion
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 46, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->list_accessmenu('cd5eea1b4a0446f...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-23 07:44:18 --> Array to string conversion
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 46, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->list_accessmenu('aaf7f0d522acc32...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-23 07:44:24 --> Array to string conversion
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 46, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->list_accessmenu('5215fa4af75c56e...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-23 07:44:58 --> Array to string conversion
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 46, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->list_accessmenu('85bba973f41e8c5...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-23 07:45:09 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(46): App\Controllers\Accessmenu->_getSubMenu('2')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->list_accessmenu('e94774168376f20...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-23 07:45:41 --> Cannot use object of type stdClass as array
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(46): App\Controllers\Accessmenu->_getSubMenu('2')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->list_accessmenu('5b3a482a3752952...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-23 07:46:04 --> Array to string conversion
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 46, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->list_accessmenu('f445a2951b82db1...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-23 07:46:29 --> Object of class stdClass could not be converted to string
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(46): App\Controllers\Accessmenu->_getSubMenu('2')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->list_accessmenu('fce77561d03306b...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-23 08:01:29 --> Undefined variable: field
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 84, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(47): App\Controllers\Accessmenu->_getSubMenu('c4ca4238a0b9238...', '2')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->list_accessmenu('3f08754c1e13ed2...')
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 08:38:07 --> syntax error, unexpected '}'
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-23 08:42:04 --> Undefined variable: no
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 154, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(122): App\Controllers\Accessmenu->_getSubSubmenu('c4ca4238a0b9238...', '6')
+#2 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(67): App\Controllers\Accessmenu->_getSubMenu('c4ca4238a0b9238...', '2')
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->list_accessmenu('2307f5f6cbafeb2...')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#5 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-23 08:54:21 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 08:54:26 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 08:55:33 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 08:55:34 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 08:58:18 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 08:58:22 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 08:58:23 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 08:58:25 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 08:58:26 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 08:58:27 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 08:58:27 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 08:58:28 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 08:58:28 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 08:59:45 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 09:00:25 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 09:04:04 --> syntax error, unexpected ';'
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-23 09:04:17 --> syntax error, unexpected ';', expecting ')'
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-23 09:04:37 --> syntax error, unexpected ','
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-23 09:11:46 --> Undefined property: App\Controllers\Accessmenu::$db
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 199, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->edit_accessmenu('54940527c5955b1...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-23 09:11:51 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 09:12:14 --> Undefined property: App\Controllers\Accessmenu::$db
+#0 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 199, Array)
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->edit_accessmenu('5a7ec0da37fd93b...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-23 09:12:57 --> Unknown column 'id_role' in 'field list'
+CRITICAL - 2022-02-23 09:12:57 --> Unknown column 'id_role' in 'field list'
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Database/MySQLi/Connection.php(280): mysqli->query('INSERT INTO `ak...')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ak...')
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ak...')
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ak...', Array, false)
+#4 /opt/lampp/htdocs/ci4-adminlte3/app/Controllers/Accessmenu.php(202): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->edit_accessmenu('f7e55a18710af5f...')
+#6 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#7 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-23 09:13:18 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/list/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 09:15:20 --> Object of class stdClass could not be converted to string
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->edit_accessmenu('285dc94d42a27b0...')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-23 09:15:26 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 09:15:27 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 09:15:28 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 09:15:29 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 09:15:30 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/edit/accessmen...', 'before')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-23 09:15:53 --> Object of class stdClass could not be converted to string
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(802): App\Controllers\Accessmenu->edit_accessmenu('2834f494b8f75e0...')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accessmenu))
+#2 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}

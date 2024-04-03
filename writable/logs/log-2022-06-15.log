@@ -1,0 +1,217 @@
+CRITICAL - 2022-06-15 00:39:39 --> Undefined property: stdClass::$harga_diskon
+#0 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/opt/lampp/htdo...', 278)
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->list_detail_transaksi('e0d75ee18cae59b...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 00:39:54 --> Undefined property: stdClass::$harga_diskon
+#0 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/opt/lampp/htdo...', 278)
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->list_detail_transaksi('7a1a2c18d4408ce...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 00:40:05 --> Undefined property: stdClass::$harga_diskon
+#0 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(278): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/opt/lampp/htdo...', 278)
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->list_detail_transaksi('6588d0375859f6c...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 00:42:23 --> Array to string conversion
+#0 /opt/lampp/htdocs/mitrasinerji/app/Views/section/index_transaksi.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 200)
+#1 /opt/lampp/htdocs/mitrasinerji/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mitrasinerji/system/Common.php(1092): CodeIgniter\View\View->render('section/index_t...', Array, true)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(24): view('section/index_t...', Array)
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->index()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-15 00:43:15 --> Array to string conversion
+#0 /opt/lampp/htdocs/mitrasinerji/app/Views/section/index_transaksi.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 203)
+#1 /opt/lampp/htdocs/mitrasinerji/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mitrasinerji/system/Common.php(1092): CodeIgniter\View\View->render('section/index_t...', Array, true)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(24): view('section/index_t...', Array)
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->index()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-15 00:43:19 --> Array to string conversion
+#0 /opt/lampp/htdocs/mitrasinerji/app/Views/section/index_transaksi.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 203)
+#1 /opt/lampp/htdocs/mitrasinerji/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mitrasinerji/system/Common.php(1092): CodeIgniter\View\View->render('section/index_t...', Array, true)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(24): view('section/index_t...', Array)
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->index()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-15 00:43:45 --> Array to string conversion
+#0 /opt/lampp/htdocs/mitrasinerji/app/Views/section/index_transaksi.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 203)
+#1 /opt/lampp/htdocs/mitrasinerji/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mitrasinerji/system/Common.php(1092): CodeIgniter\View\View->render('section/index_t...', Array, true)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(24): view('section/index_t...', Array)
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->index()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-15 00:44:53 --> Array to string conversion
+#0 /opt/lampp/htdocs/mitrasinerji/app/Views/section/index_transaksi.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 203)
+#1 /opt/lampp/htdocs/mitrasinerji/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mitrasinerji/system/Common.php(1092): CodeIgniter\View\View->render('section/index_t...', Array, true)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(24): view('section/index_t...', Array)
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->index()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-15 01:15:05 --> number_format(): Argument #2 ($decimals) must be of type int, string given
+#0 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(24): number_format(2, '')
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->index()
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 01:15:34 --> number_format(): Argument #1 ($num) must be of type float, string given
+#0 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(24): number_format('', 3, 0)
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->index()
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 01:19:10 --> You must set the database table to be used with your query.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /opt/lampp/htdocs/mitrasinerji/system/Model.php(509): CodeIgniter\Model->builder()
+#2 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(28): CodeIgniter\Model->countAllResults()
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->index()
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-15 01:19:58 --> You must set the database table to be used with your query.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 /opt/lampp/htdocs/mitrasinerji/system/Model.php(509): CodeIgniter\Model->builder()
+#2 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(32): CodeIgniter\Model->countAllResults()
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->index()
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-15 01:40:30 --> Call to undefined method App\Models\TransaksiModel::NumRows
+#0 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(93): CodeIgniter\Model->__call('NumRows', Array)
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->add_transaksi()
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-15 02:58:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+CRITICAL - 2022-06-15 02:58:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+#0 /opt/lampp/htdocs/mitrasinerji/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/mitrasinerji/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/mitrasinerji/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(20): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->index()
+#8 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-15 03:01:24 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+#0 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(22): date('Y-m-d', '2022-06-15 01:4...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->index()
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 03:03:44 --> foreach() argument must be of type array|object, string given
+#0 /opt/lampp/htdocs/mitrasinerji/app/Views/section/index_transaksi.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', '/opt/lampp/htdo...', 53)
+#1 /opt/lampp/htdocs/mitrasinerji/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/mitrasinerji/system/Common.php(1092): CodeIgniter\View\View->render('section/index_t...', Array, true)
+#4 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(32): view('section/index_t...', Array)
+#5 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->index()
+#6 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-15 04:06:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 4
+CRITICAL - 2022-06-15 04:06:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DESC' at line 4
+#0 /opt/lampp/htdocs/mitrasinerji/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /opt/lampp/htdocs/mitrasinerji/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /opt/lampp/htdocs/mitrasinerji/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/mitrasinerji/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(21): CodeIgniter\BaseModel->findAll()
+#7 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->index()
+#8 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-15 05:00:32 --> Undefined array key 2
+#0 /opt/lampp/htdocs/mitrasinerji/app/Models/TransaksiModel.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/opt/lampp/htdo...', 206)
+#1 /opt/lampp/htdocs/mitrasinerji/app/Controllers/Transaksi.php(42): App\Models\TransaksiModel->splitDate('2022-0610')
+#2 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(802): App\Controllers\Transaksi->list_transaksi('e9fc53595f65290...')
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 05:20:56 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/delete/transac...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 05:23:58 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/detail/transac...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 05:24:01 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/detail/transac...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 05:25:42 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/list/transacti...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 05:26:04 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/list/transacti...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-15 05:26:16 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/mitrasinerji/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/mitrasinerji/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/mitrasinerji/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/list/transacti...', 'before')
+#4 /opt/lampp/htdocs/mitrasinerji/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/mitrasinerji/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}

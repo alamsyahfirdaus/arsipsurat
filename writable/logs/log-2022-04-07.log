@@ -1,0 +1,184 @@
+CRITICAL - 2022-04-07 08:24:50 --> Undefined property: stdClass::$id_jenis_bahan
+#0 /opt/lampp/htdocs/konveksi/app/Views/section/add_edit_bahanbaku.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 24, Array)
+#1 /opt/lampp/htdocs/konveksi/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/konveksi/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/konveksi/system/Common.php(1092): CodeIgniter\View\View->render('section/add_edi...', Array, true)
+#4 /opt/lampp/htdocs/konveksi/app/Controllers/Bahanbaku.php(96): view('section/add_edi...', Array)
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bahanbaku->edit_bahanbaku('MQ==')
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahanbaku))
+#7 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-07 08:45:35 --> Argument 1 passed to App\Controllers\Bahanbaku::_save_bahanbaku() must be an instance of App\Controllers\Type or null, string given, called in /opt/lampp/htdocs/konveksi/app/Controllers/Bahanbaku.php on line 101
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bahanbaku.php(101): App\Controllers\Bahanbaku->_save_bahanbaku('1')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bahanbaku->edit_bahanbaku('MQ==')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahanbaku))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 08:47:53 --> syntax error, unexpected ','
+#0 /opt/lampp/htdocs/konveksi/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/konveksi/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-07 09:05:15 -->  route cannot be found while reverse-routing.
+#0 /opt/lampp/htdocs/konveksi/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /opt/lampp/htdocs/konveksi/app/Controllers/Bahanbaku.php(123): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /opt/lampp/htdocs/konveksi/app/Controllers/Bahanbaku.php(80): App\Controllers\Bahanbaku->_save_bahanbaku()
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bahanbaku->add_bahanbaku()
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahanbaku))
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-07 09:16:10 --> syntax error, unexpected 'if' (T_IF)
+#0 /opt/lampp/htdocs/konveksi/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/konveksi/system/Common.php(1092): CodeIgniter\View\View->render('section/add_edi...', Array, true)
+#2 /opt/lampp/htdocs/konveksi/app/Controllers/Bahanbaku.php(105): view('section/add_edi...', Array)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bahanbaku->edit_bahanbaku('MTM=')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahanbaku))
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-07 09:18:46 --> Object of class stdClass could not be converted to string
+#0 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bahanbaku->save_bahanbaku()
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahanbaku))
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-07 09:33:50 --> Use of undefined constant base64_encode - assumed 'base64_encode' (this will throw an Error in a future version of PHP)
+#0 /opt/lampp/htdocs/konveksi/app/Views/section/add_edit_bahanbaku.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/opt/lampp/htdo...', 20, Array)
+#1 /opt/lampp/htdocs/konveksi/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/konveksi/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/konveksi/system/Common.php(1092): CodeIgniter\View\View->render('section/add_edi...', Array, true)
+#4 /opt/lampp/htdocs/konveksi/app/Controllers/Bahanbaku.php(96): view('section/add_edi...', Array)
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bahanbaku->edit_bahanbaku('MjA=')
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahanbaku))
+#7 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-07 09:56:19 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/add/yard', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-07 10:01:42 --> Undefined property: App\Controllers\Bahanbaku::$conn
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bahanbaku.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 152, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bahanbaku->add_yard('9d4f567f834f8ad...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahanbaku))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 10:06:09 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/list/yard/9afa...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-07 10:06:30 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/list/yard/e4b8...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-07 10:10:55 --> Array to string conversion
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bahanbaku.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 133, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bahanbaku->list_yard('e0ae92cfe460512...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahanbaku))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 10:11:04 --> Array to string conversion
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bahanbaku.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 133, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bahanbaku->list_yard('2b6cb72d7d5e104...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahanbaku))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 10:11:20 --> Array to string conversion
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bahanbaku.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 133, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bahanbaku->list_yard('0cfc803069e409d...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahanbaku))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 10:24:54 --> Array to string conversion
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Bahanbaku.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 133, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Bahanbaku->list_yard('c94a662fb1a81bd...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bahanbaku))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 11:17:23 --> Invalid file: section/rencanakerja.php
+#0 /opt/lampp/htdocs/konveksi/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('section/rencana...')
+#1 /opt/lampp/htdocs/konveksi/system/Common.php(1092): CodeIgniter\View\View->render('section/rencana...', Array, true)
+#2 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(19): view('section/rencana...', Array)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->index()
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-07 11:28:58 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 62, Array)
+#1 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(62): implode(Array)
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->list_rencanakerja('1d5f5552fd0556c...')
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-07 11:29:09 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/opt/lampp/htdo...', 62, Array)
+#1 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(62): implode(Array)
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->list_rencanakerja('884bcdafa9dd9cf...')
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-07 12:11:24 --> Declaration of App\Models\BahanBakuModel::findAll() should be compatible with CodeIgniter\BaseModel::findAll(int $limit = 0, int $offset = 0)
+#0 /opt/lampp/htdocs/konveksi/system/Autoloader/Autoloader.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', '/opt/lampp/htdo...', 74, Array)
+#1 /opt/lampp/htdocs/konveksi/system/Autoloader/Autoloader.php(264): include_once()
+#2 /opt/lampp/htdocs/konveksi/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/konveksi/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Baha...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Baha...')
+#5 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(70): spl_autoload_call('App\\Models\\Baha...')
+#6 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(78): App\Controllers\Rencanakerja->_getBahanBaku()
+#7 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->add_rencanakerja()
+#8 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#9 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-07 12:11:38 --> Declaration of App\Models\BahanBakuModel::findAll() should be compatible with CodeIgniter\BaseModel::findAll(int $limit = 0, int $offset = 0)
+#0 /opt/lampp/htdocs/konveksi/system/Autoloader/Autoloader.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', '/opt/lampp/htdo...', 74, Array)
+#1 /opt/lampp/htdocs/konveksi/system/Autoloader/Autoloader.php(264): include_once()
+#2 /opt/lampp/htdocs/konveksi/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/konveksi/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Baha...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Baha...')
+#5 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(70): spl_autoload_call('App\\Models\\Baha...')
+#6 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(78): App\Controllers\Rencanakerja->_getBahanBaku()
+#7 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->add_rencanakerja()
+#8 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#9 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-04-07 12:13:55 --> Undefined variable: jb
+#0 /opt/lampp/htdocs/konveksi/app/Views/section/add_edit_rencanakerja.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 28, Array)
+#1 /opt/lampp/htdocs/konveksi/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/konveksi/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/konveksi/system/Common.php(1092): CodeIgniter\View\View->render('section/add_edi...', Array, true)
+#4 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(81): view('section/add_edi...', Array)
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->add_rencanakerja()
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#7 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}

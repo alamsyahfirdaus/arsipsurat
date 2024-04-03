@@ -1,0 +1,520 @@
+CRITICAL - 2024-03-08 02:40:57 --> Undefined variable $kode_barang
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_jenis_surat.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 74)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_j...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/JenisSurat.php(21): view('section/index_j...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\JenisSurat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JenisSurat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 02:41:43 --> Undefined variable $nama_jenis_surat
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_jenis_surat.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 74)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_j...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/JenisSurat.php(21): view('section/index_j...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\JenisSurat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JenisSurat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 02:41:44 --> Undefined variable $nama_jenis_surat
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_jenis_surat.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 74)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_j...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/JenisSurat.php(21): view('section/index_j...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\JenisSurat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JenisSurat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 02:41:44 --> Undefined variable $nama_jenis_surat
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_jenis_surat.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 74)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_j...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/JenisSurat.php(21): view('section/index_j...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\JenisSurat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JenisSurat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 02:41:45 --> Undefined variable $nama_jenis_surat
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_jenis_surat.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 74)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_j...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/JenisSurat.php(21): view('section/index_j...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\JenisSurat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JenisSurat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 02:41:45 --> Undefined variable $nama_jenis_surat
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_jenis_surat.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 74)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_j...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/JenisSurat.php(21): view('section/index_j...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\JenisSurat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JenisSurat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 02:43:18 --> Undefined property: stdClass::$id_barang
+#0 /opt/lampp/htdocs/arsipsurat/app/Controllers/JenisSurat.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/opt/lampp/htdo...', 38)
+#1 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\JenisSurat->list_jenis_surat('c8aeb2c095b5251...')
+#2 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JenisSurat))
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-08 02:44:14 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/arsipsurat/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/arsipsurat/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/arsipsurat/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/type', 'before')
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-03-08 02:44:15 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/arsipsurat/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/arsipsurat/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/arsipsurat/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/type', 'before')
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-03-08 02:44:17 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/arsipsurat/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/arsipsurat/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/arsipsurat/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/list/type/145c...', 'before')
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-03-08 02:45:27 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/arsipsurat/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/arsipsurat/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/arsipsurat/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/type', 'before')
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-03-08 02:45:33 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/arsipsurat/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/arsipsurat/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/arsipsurat/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/type', 'before')
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2024-03-08 03:32:30 --> Not unique table/alias: 's'
+CRITICAL - 2024-03-08 03:32:30 --> Not unique table/alias: 's'
+#0 /opt/lampp/htdocs/arsipsurat/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT `s`.`id_...')
+#1 /opt/lampp/htdocs/arsipsurat/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id_...')
+#2 /opt/lampp/htdocs/arsipsurat/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id_...')
+#3 /opt/lampp/htdocs/arsipsurat/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id_...', Array, false)
+#4 /opt/lampp/htdocs/arsipsurat/app/Models/RekapSuratModel.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(194): App\Models\RekapSuratModel->getDataTable()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->list_rekap_surat('29283d81466f85d...')
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#8 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-08 03:33:03 --> Not unique table/alias: 's'
+CRITICAL - 2024-03-08 03:33:03 --> Not unique table/alias: 's'
+#0 /opt/lampp/htdocs/arsipsurat/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT `s`.`id_...')
+#1 /opt/lampp/htdocs/arsipsurat/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id_...')
+#2 /opt/lampp/htdocs/arsipsurat/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id_...')
+#3 /opt/lampp/htdocs/arsipsurat/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id_...', Array, false)
+#4 /opt/lampp/htdocs/arsipsurat/app/Models/RekapSuratModel.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(194): App\Models\RekapSuratModel->getDataTable()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->list_rekap_surat('58abd0f2f28861f...')
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#8 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-03-08 03:34:15 --> Not unique table/alias: 's'
+CRITICAL - 2024-03-08 03:34:15 --> Not unique table/alias: 's'
+#0 /opt/lampp/htdocs/arsipsurat/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT `s`.`id_...')
+#1 /opt/lampp/htdocs/arsipsurat/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s`.`id_...')
+#2 /opt/lampp/htdocs/arsipsurat/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s`.`id_...')
+#3 /opt/lampp/htdocs/arsipsurat/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `s`.`id_...', Array, false)
+#4 /opt/lampp/htdocs/arsipsurat/app/Models/RekapSuratModel.php(79): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(194): App\Models\RekapSuratModel->getDataTable()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->list_rekap_surat('52a7dfc66066d1d...')
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#8 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-08 03:38:21 --> Undefined variable $nama_surat
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 41)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:40:35 --> Array to string conversion
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 168)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:40:49 --> Array to string conversion
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 168)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:41:27 --> Array to string conversion
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 168)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:42:18 --> Array to string conversion
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 168)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:43:00 --> Cannot use a scalar value as an array
+#0 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#3 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-08 03:43:07 --> count(): Argument #1 ($value) must be of type Countable|array, int given
+#0 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#3 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-08 03:43:24 --> syntax error, unexpected token ")"
+#0 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#2 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-03-08 03:44:38 --> Array to string conversion
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 168)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:44:47 --> Array to string conversion
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 168)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:47:04 --> Array to string conversion
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 168)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:47:14 --> Array to string conversion
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 168)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:48:02 --> Cannot use a scalar value as an array
+#0 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#3 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-08 03:48:08 --> count(): Argument #1 ($value) must be of type Countable|array, int given
+#0 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#3 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-03-08 03:48:39 --> Array to string conversion
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 166)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:48:41 --> Array to string conversion
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 166)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:49:41 --> Array to string conversion
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 166)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:49:43 --> Array to string conversion
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 166)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:52:30 --> Array to string conversion
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 168)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:52:42 --> Array to string conversion
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 168)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:52:56 --> Array to string conversion
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', '/opt/lampp/htdo...', 168)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:58:15 --> Undefined variable $list_date
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_rekap_surat.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 32)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_r...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): view('section/index_r...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 03:59:14 --> Call to undefined method App\Models\RekapSuratModel::findDate
+#0 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): CodeIgniter\Model->__call('findDate', Array)
+#1 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#2 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-08 03:59:15 --> Call to undefined method App\Models\RekapSuratModel::findDate
+#0 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): CodeIgniter\Model->__call('findDate', Array)
+#1 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#2 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2024-03-08 04:00:04 --> Unknown column 'tanggal' in 'field list'
+CRITICAL - 2024-03-08 04:00:04 --> Unknown column 'tanggal' in 'field list'
+#0 /opt/lampp/htdocs/arsipsurat/system/Database/MySQLi/Connection.php(280): mysqli->query('SELECT DATE(tan...')
+#1 /opt/lampp/htdocs/arsipsurat/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DATE(tan...')
+#2 /opt/lampp/htdocs/arsipsurat/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DATE(tan...')
+#3 /opt/lampp/htdocs/arsipsurat/system/Database/BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT DATE(tan...', Array, false)
+#4 /opt/lampp/htdocs/arsipsurat/app/Models/RekapSuratModel.php(100): CodeIgniter\Database\BaseBuilder->get()
+#5 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(20): App\Models\RekapSuratModel->findDate()
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->index()
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#8 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-08 04:07:12 --> Call to undefined method App\Models\SuratModel::findDate
+#0 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(226): CodeIgniter\Model->__call('findDate', Array)
+#1 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->list_rekap_surat('422c98c0299caa6...')
+#2 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-08 04:07:14 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/arsipsurat/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/arsipsurat/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/arsipsurat/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/list/recap/422...', 'before')
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-03-08 04:48:27 --> Undefined variable $tanggal_unggah
+#0 /opt/lampp/htdocs/arsipsurat/app/Views/section/index_surat.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/opt/lampp/htdo...', 80)
+#1 /opt/lampp/htdocs/arsipsurat/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/arsipsurat/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/arsipsurat/system/Common.php(1092): CodeIgniter\View\View->render('section/index_s...', Array, true)
+#4 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(40): view('section/index_s...', Array)
+#5 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->jenis_surat('MQ==')
+#6 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#7 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-03-08 05:08:35 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/arsipsurat/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/arsipsurat/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/arsipsurat/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/delete/letter/...', 'before')
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-03-08 06:24:56 --> Could not move file phpNPhTh2 to /opt/lampp/htdocs/arsipsurat/public/assets/uploads/ ()
+#0 /opt/lampp/htdocs/arsipsurat/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpNPhTh2', '/opt/lampp/htdo...', '')
+#1 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(149): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdo...', '1709900696_c90f...')
+#2 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->save_surat()
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-03-08 06:24:58 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/arsipsurat/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/arsipsurat/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/arsipsurat/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/letter', 'before')
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-03-08 06:25:08 --> Could not move file phpzZO3qt to /opt/lampp/htdocs/arsipsurat/public/assets/uploads/ ()
+#0 /opt/lampp/htdocs/arsipsurat/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpzZO3qt', '/opt/lampp/htdo...', '')
+#1 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(149): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdo...', '1709900708_db98...')
+#2 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->save_surat()
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-03-08 06:25:17 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/arsipsurat/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/arsipsurat/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/arsipsurat/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/letter', 'before')
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-03-08 06:25:40 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/arsipsurat/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/arsipsurat/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/arsipsurat/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/letter', 'before')
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-03-08 06:35:53 --> Could not move file phpRNdP8c to /opt/lampp/htdocs/arsipsurat/public/assets/uploads/ ()
+#0 /opt/lampp/htdocs/arsipsurat/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpRNdP8c', '/opt/lampp/htdo...', '')
+#1 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(147): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdo...', '1709901353_69c6...')
+#2 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->save_surat()
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-03-08 06:35:54 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/arsipsurat/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/arsipsurat/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/arsipsurat/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/letter', 'before')
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-03-08 06:40:26 --> Attempt to read property "id_surat" on null
+#0 /opt/lampp/htdocs/arsipsurat/app/Controllers/Surat.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', '/opt/lampp/htdo...', 107)
+#1 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(802): App\Controllers\Surat->save_surat()
+#2 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Surat))
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-03-08 06:40:28 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/arsipsurat/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/arsipsurat/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/arsipsurat/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/letter', 'before')
+#4 /opt/lampp/htdocs/arsipsurat/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/arsipsurat/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}

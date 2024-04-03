@@ -1,0 +1,10 @@
+CRITICAL - 2022-03-12 04:13:02 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/ci4-adminlte3/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/ci4-adminlte3/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ci4-adminlte3/index.php(38): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,173 @@
+CRITICAL - 2022-04-10 09:00:40 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/list/yard/d16c...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-10 09:42:16 --> Undefined variable: jenis
+#0 /opt/lampp/htdocs/konveksi/app/Views/section/add_edit_rencanakerja.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 32, Array)
+#1 /opt/lampp/htdocs/konveksi/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/konveksi/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/konveksi/system/Common.php(1092): CodeIgniter\View\View->render('section/add_edi...', Array, true)
+#4 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(82): view('section/add_edi...', Array)
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->add_rencanakerja()
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#7 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-10 09:54:21 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/rencanake...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-10 09:55:29 --> There is no data to insert.
+#0 /opt/lampp/htdocs/konveksi/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 /opt/lampp/htdocs/konveksi/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#2 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(116): CodeIgniter\Model->insert(Array)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->save_rencanakerja()
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-10 10:04:22 --> Undefined property: App\Controllers\Rencanakerja::$validation
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 106, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->save_rencanakerja()
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 10:05:11 --> Undefined property: App\Controllers\Rencanakerja::$validation
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/opt/lampp/htdo...', 106, Array)
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->save_rencanakerja()
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 10:21:12 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/rencanake...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-10 10:31:35 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/konveksi/system/Security/Security.php(222): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/konveksi/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/konveksi/system/Filters/Filters.php(169): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/save/rencanake...', 'before')
+#4 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-10 11:11:39 --> Cannot add or update a child row: a foreign key constraint fails (`apk_konveksi`.`rencana_kerja`, CONSTRAINT `rencana_kerja_ibfk_1` FOREIGN KEY (`bahan_baku_id`) REFERENCES `bahan_baku` (`id_bahan_baku`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-04-10 11:11:39 --> Cannot add or update a child row: a foreign key constraint fails (`apk_konveksi`.`rencana_kerja`, CONSTRAINT `rencana_kerja_ibfk_1` FOREIGN KEY (`bahan_baku_id`) REFERENCES `bahan_baku` (`id_bahan_baku`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 /opt/lampp/htdocs/konveksi/system/Database/MySQLi/Connection.php(280): mysqli->query('INSERT INTO `re...')
+#1 /opt/lampp/htdocs/konveksi/system/Database/BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 /opt/lampp/htdocs/konveksi/system/Database/BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 /opt/lampp/htdocs/konveksi/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 /opt/lampp/htdocs/konveksi/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /opt/lampp/htdocs/konveksi/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /opt/lampp/htdocs/konveksi/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(141): CodeIgniter\Model->insert(Array)
+#8 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->save_rencanakerja()
+#9 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#10 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-10 11:16:49 --> Undefined variable: bahan_baku
+#0 /opt/lampp/htdocs/konveksi/app/Views/section/add_edit_rencanakerja.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 22, Array)
+#1 /opt/lampp/htdocs/konveksi/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/konveksi/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/konveksi/system/Common.php(1092): CodeIgniter\View\View->render('section/add_edi...', Array, true)
+#4 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(100): view('section/add_edi...', Array)
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->edit_rencanakerja('Ng==')
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#7 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-10 11:17:02 --> Undefined variable: bahan_baku
+#0 /opt/lampp/htdocs/konveksi/app/Views/section/add_edit_rencanakerja.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/opt/lampp/htdo...', 22, Array)
+#1 /opt/lampp/htdocs/konveksi/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/konveksi/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/konveksi/system/Common.php(1092): CodeIgniter\View\View->render('section/add_edi...', Array, true)
+#4 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(100): view('section/add_edi...', Array)
+#5 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->edit_rencanakerja('Ng==')
+#6 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#7 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-10 11:37:48 --> Class 'App\Models\UkuranModel' not found
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(34): App\Controllers\Rencanakerja->_get_list_ukuran('1,2,3')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->list_rencanakerja('f35f1205c013392...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 11:38:02 --> Class 'App\Models\UkuranModel' not found
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(34): App\Controllers\Rencanakerja->_get_list_ukuran('1,2,3')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->list_rencanakerja('010484127770a20...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 11:38:08 --> Class 'App\Models\UkuranModel' not found
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(34): App\Controllers\Rencanakerja->_get_list_ukuran('1,2,3')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->list_rencanakerja('9a6041a93d79465...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 11:38:31 --> Class 'App\Models\UkuranModel' not found
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(34): App\Controllers\Rencanakerja->_get_list_ukuran('1,2,3')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->list_rencanakerja('ea4edaa3e201e12...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 11:39:05 --> Class 'App\Models\UkuranModel' not found
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(34): App\Controllers\Rencanakerja->_get_list_ukuran('1,2,3')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->list_rencanakerja('9632f5aaff012a1...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 11:39:34 --> Class 'App\Models\UkuranModel' not found
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(34): App\Controllers\Rencanakerja->_get_list_ukuran('1,2,3')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->list_rencanakerja('bfc116c2aaaf9ba...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 11:40:35 --> Class 'App\Models\UkuranModel' not found
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(34): App\Controllers\Rencanakerja->_get_list_ukuran('1,2,3')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->list_rencanakerja('4e0d9dc1a256bf0...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 11:41:03 --> Class 'App\Models\UkuranModel' not found
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(34): App\Controllers\Rencanakerja->_get_list_ukuran('1,2,3')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->list_rencanakerja('52c573cc50df592...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 11:41:57 --> Class 'App\Models\UkuranModel' not found
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(34): App\Controllers\Rencanakerja->_get_list_ukuran('1,2,3')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->list_rencanakerja('298b3c0ba0b5573...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-10 11:43:28 --> Class 'App\Models\SizeModel' not found
+#0 /opt/lampp/htdocs/konveksi/app/Controllers/Rencanakerja.php(34): App\Controllers\Rencanakerja->_get_list_ukuran('1,2,3')
+#1 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(802): App\Controllers\Rencanakerja->list_rencanakerja('5c690a226419224...')
+#2 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rencanakerja))
+#3 /opt/lampp/htdocs/konveksi/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/konveksi/index.php(38): CodeIgniter\CodeIgniter->run()
+#5 {main}
